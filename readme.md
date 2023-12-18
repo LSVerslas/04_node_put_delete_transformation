@@ -21,3 +21,5 @@ Terminal -> src
 npm run dev
 
 server.js -> const PORT = 3000;
+
+Terminal -> npm init @eslint/config
