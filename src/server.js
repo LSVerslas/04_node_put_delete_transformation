@@ -4,6 +4,14 @@ const cors = require('cors');
 
 const app = express();
 
+const PORT = 3000'
+
+const users = 
+    { id: 1, name: 'Serbentautas', town: 'Vilnius', isDeleted: false },
+    { id: 2, name: 'Lenteja', town: 'Kaunas', isDeleted: false },
+    { id: 3, name: 'James', town: 'London', isDeleted: false },
+  ;
+
 app.use(morgan('dev'));
 app.use(cors());
 
